@@ -2,8 +2,8 @@ from socket import socket, AF_INET, SOCK_STREAM, SOL_SOCKET, SO_REUSEADDR
 import sys
 import pdb
 
-serverAddress = '192.168.43.36'
-serverPort = 8080
+serverAddress = '192.168.43.36' # change to IP 
+serverPort = 8080       # and PORT of your choice
 
 def main():
     try:
